@@ -30,7 +30,7 @@ public class Heap {
 		int aux;
 		aux = i;
 		vetor[i] = vetor[j];
-		vetor[j] = vetor[i];
+		vetor[j] = vetor[aux];
 	}
 	
 	public void maxHeapify(int i) {
